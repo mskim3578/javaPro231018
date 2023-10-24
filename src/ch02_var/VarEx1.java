@@ -1,4 +1,23 @@
 package ch02_var;
+/*
+ * 실수형 리터널의 기본자료형은 double 임
+ * float 리터널로 표시하기 위해서는 접미사를 붙여야 한다.
+ *  F,f : float 리터널
+ *  D,d : double 리터널
+ *  L,l : long 리터널
+ */
+/*
+ * 자료형 
+ *     기본형 - 논리형 : boolean(1bit)
+ *            문자형 : char(2)
+ *            정수형 : byte(1), short(2), int(4), long(8)
+ *            실수형 : float(4), double(8)
+ *     참조형 - 배열, 클래스, 인터페이스
+ *     
+ 
+ */
+
+
 
 public class VarEx1 {
 
