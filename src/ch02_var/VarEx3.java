@@ -11,5 +11,13 @@ public class VarEx3 {
 		s1 =   (short) l1; // 2byte   <= 4byte  명시적 casting
 		float f = l1;   //auto casting
 		l1 = (long) f;
+		
+		
+		
+		
+	
+		
+		
+		
 	}
 }
