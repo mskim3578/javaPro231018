@@ -5,21 +5,23 @@ package ch08_exp;
  * 단 RuntimeException은 처리 하지 않아도 됨
  */
 public class ExceptionEx5 {
-	public static void main(String[] args)   {
+	public static void main(String[] args)    {
 		try {
-			first();
+			first(); //1
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}		}
+		//	e.printStackTrace();
+		}//1
+		System.out.println("end main");
+		}
 	private static void first() throws Exception   {
-			second();		
-			System.out.println("first");
+			second();	//2	
+			System.out.println("first");//4
 	}
 	private static void second() throws Exception{
-		System.out.println("second 메서드");
+		System.out.println("second 메서드");//3
 		//NumberFormatException 예외 발생
-			System.out.println(Integer.parseInt("abc"));
+		//s	System.out.println(Integer.parseInt("abc"));
 		
 		
 	}
