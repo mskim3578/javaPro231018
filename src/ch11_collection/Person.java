@@ -16,11 +16,7 @@ public class Person implements Comparable<Person>{
 		return name.equals(p.name) && age == p.age;
 	}
 	
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		return name.hashCode()+age;
-	}
+	
 	
 	@Override
 	public int compareTo(Person o) {

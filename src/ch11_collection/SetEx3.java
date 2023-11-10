@@ -28,6 +28,7 @@ import java.util.TreeSet;
 public class SetEx3 {
 	public static void main(String[] args) {
 		SortedSet<String> set = new TreeSet<>();
+		
 		set = new TreeSet<>(new Descending()); //8.0 이전버전
 		set = new TreeSet<>((o1,o2) -> o1.compareTo(o2)*-1); //8.0 이전버전
 		set = new TreeSet<>(Comparator.reverseOrder()); //8.0 이후 버전

@@ -27,11 +27,11 @@ class MyClass02 {
 	@Override
 	public String toString() {		return "MyClass02";	}}
 
-class Pool02 <T> {
-	private T t;
-	public void set(T t) {
+class Pool02 <TT> {
+	private TT t;
+	public void set(TT t) {
 		this.t = t;	}
-	public T get() {		return t;	}}
+	public TT get() {		return t;	}}
 
 
 
