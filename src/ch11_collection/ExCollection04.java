@@ -34,6 +34,7 @@ class ExCollection04 {
 				return o2.tot - o1.tot;
 			}
 		});
+		Collections.sort(li, (o1,o2) -> o2.tot - o1.tot);
 		
 		for (Student2 s : li) {
 			System.out.println(s);
