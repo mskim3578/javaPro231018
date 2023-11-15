@@ -19,15 +19,28 @@ class PrintThread extends Thread {
 			synchronized(lock)	{
 				for(int j=0;j<80;j++) {
 					System.out.print(ch);
-					for(int k=0;k<3;k++) {
-						System.out.print("=");
-					}
+					
 				}
 				System.out.println();
 			}	
 		
 		}
-		}	}
+		}	
+	
+   public synchronized void  name() {
+	
+			for(int j=0;j<80;j++) {
+				System.out.print(ch);
+				for(int k=0;k<3;k++) {
+					System.out.print("=");
+				}
+			}
+			System.out.println();
+		
+	
+}
+
+}
 
 public class ThreadEx05 {
 	public static void main(String[] args) {

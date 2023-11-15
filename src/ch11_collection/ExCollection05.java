@@ -145,6 +145,46 @@ class Product {
 			this.remark = "";
 	}
 
+	public int getMon() {
+		return mon;
+	}
+
+	public void setMon(int mon) {
+		this.mon = mon;
+	}
+
+	public int getCon() {
+		return con;
+	}
+
+	public void setCon(int con) {
+		this.con = con;
+	}
+
+	public String getCarname() {
+		return carname;
+	}
+
+	public void setCarname(String carname) {
+		this.carname = carname;
+	}
+
+	public int getQty() {
+		return qty;
+	}
+
+	public void setQty(int qty) {
+		this.qty = qty;
+	}
+
+	public String getRemark() {
+		return remark;
+	}
+
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
+
 	@Override
 	public String toString() {
 		return "Product [mon=" + mon + ", con=" + con + ", carname=" + carname + ", qty=" + qty + ", remark=" + remark
