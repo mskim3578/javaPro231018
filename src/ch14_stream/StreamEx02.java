@@ -5,7 +5,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamEx02 {
-	/* Array  to Stream
+	/* Stream 생성하기
+	 * Array  to Stream
 	 * Stream<String> strStream = Arrays.stream(strArray);*/
 	public static void main(String[] args) {
 		String[] strArray = { "홍길동", "신용권", "김미나"};

@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.util.stream.Stream;
 
 public class StreamEx01 {
-	/*
+	/* Stream 생성하기
 	 * File에서 읽은 내용을 스트림으로 생성하기: BufferedReader, Scanner
 	 * Path에서 읽은 파일 이름을 프린트 하기
 	 */
