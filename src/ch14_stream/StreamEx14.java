@@ -89,7 +89,8 @@ public class StreamEx14 {
         System.out.println("8. 학생이름 리스트 프린트하기 : Collectors.joining()");
 		
 		String list = Stream.of(stuarr).map(Student2::getName)
-		.collect(Collectors.joining("==","[","]"));
+		.collect(Collectors.joining("==","[","]")); 
+		//"delimiter", "start", "end"
 		System.out.println(list);
 		
 		
